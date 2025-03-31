@@ -1,0 +1,10 @@
+@import url("https://rsms.me/inter/inter.css");
+@import 'tailwindcss';
+
+.debug {
+    border: 1px red solid;
+}
+
+.inter {
+    font-family: Inter, sans-serif;
+}
