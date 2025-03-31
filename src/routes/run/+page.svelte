@@ -105,6 +105,6 @@
     </table>
     <div class="flex flex-row gap-3 items-center">
         <button on:click={assignArray} class="inter text-lg px-3 py-1 border-2 border-slate-700 text-slate-700 font-bold bg-white">Assign</button>
-        <button on:click={lockAll} class="inter text-lg px-3 py-1 border-2 border-slate-700 text-slate-700 font-bold bg-white {locked?'bg-gray-300':''}">{!locked ? 'Lock' : 'Locked'}</button>
+        <button on:click={lockAll} class="inter text-lg px-3 py-1 border-2 border-slate-700 text-slate-700 font-bold {locked?'bg-gray-300':'bg-white'}">{!locked ? 'Lock' : 'Locked'}</button>
     </div>
 </div>
